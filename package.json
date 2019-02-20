@@ -2,5 +2,10 @@
   "name": "hey",
   "version": "1.0.0",
   "description": "Responds \"hey\" in multiple ways",
-  "main": "src/index.js"
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
