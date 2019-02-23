@@ -1,6 +1,6 @@
 FROM node:11-alpine
 
-ENV PORT=80
+ENV PORT 80
 
 WORKDIR /app
 
