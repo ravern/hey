@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Responds \"hey\" in multiple ways",
   "scripts": {
-    "dev:start": "nodemon src/index.js",
-    "prod:start": "node src/index.js"
+    "start": "node src/index.js",
+    "watch": "nodemon src/index.js"
   },
   "dependencies": {
     "express": "^4.16.4"
